@@ -30,9 +30,9 @@
 #define BLYNK_PRINT Serial
 
 /* Fill in information from Blynk Device Info here */
-#define BLYNK_TEMPLATE_ID "TMPL6A0x26sZY"
+#define BLYNK_TEMPLATE_ID "TMPL6"
 #define BLYNK_TEMPLATE_NAME "Percobaan"
-#define BLYNK_AUTH_TOKEN "h0KvaLQEnC8Az6xf6qmUPgAo3OVdYEWl"
+#define BLYNK_AUTH_TOKEN "h0KvaL"
 
 
 #include <ESP8266WiFi.h>
@@ -40,8 +40,8 @@
 #include <Servo.h>
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "avisalt2";
-char pass[] = "TMsoftware";
+char ssid[] = "#";
+char pass[] = "#";
 
 Servo servoGripper;
 Servo servoJointR;
